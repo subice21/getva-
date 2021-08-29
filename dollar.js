@@ -42,7 +42,7 @@ exports.dollar = async function(){
     Shekel = [];
     request(url_Obj, (error, res, body)=>{
         if(error){
-            log("Error :" + error);}
+           reject("Error :" + error);}
         if(res.statusCode === 200){
             resolve(collectInternalLinks(cheerio.load(body)));
         }
