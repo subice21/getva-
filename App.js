@@ -2,6 +2,7 @@ const http = require('http');
 let aluminum = require('./alu');
 let copper = require('./cu');
 let Shekel = require('./dollar');
+let port = process.env.PORT || 80;
 
 const server = http.createServer();
 server.on('request', async (req, res) => {
@@ -16,5 +17,5 @@ server.on('request', async (req, res) => {
   res.end();
 });
 
-server.listen(3000);
+server.listen(port);
 
