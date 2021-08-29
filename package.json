@@ -5,6 +5,11 @@
     "engines": {
       "node": "14.x"
     },
+    "dependencies": {
+      "url-parse": ">=1.0.2",
+      "cheerio": ">=1.0.2",
+      "request": ">=1.0.2"
+    },
     "scripts": {
         "start": "node App.js"
       }
