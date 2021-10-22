@@ -2,7 +2,7 @@ var URL = require('url-parse');
 var cheerio = require('cheerio');
 var request = require('request');
 
-var AlumunumURl = "https://il.investing.com/commodities/aluminum";
+var AlumunumURl = "";
 var Alumunum_url = new URL(AlumunumURl);
 
 var headers1 = { 
