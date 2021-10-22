@@ -2,7 +2,7 @@ var URL = require('url-parse');
 var cheerio = require('cheerio');
 var request = require('request');
 
-var CopperUrl = "https://il.investing.com/commodities/copper";
+var CopperUrl = "";
 var Copper_Url = new URL(CopperUrl);
 
 var headers1 = { 
