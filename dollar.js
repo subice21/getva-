@@ -7,7 +7,7 @@ var headers1 = {
     'Content-Type' : 'application/x-www-form-urlencoded' 
 };
 
-var START_URL = "https://www.boi.org.il/en/Markets/ExchangeRates/Pages/Default.aspx";
+var START_URL = "";
 var url = new URL(START_URL);
 
 var url_Obj = {
